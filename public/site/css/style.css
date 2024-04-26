@@ -1,0 +1,86 @@
+body {
+    background-color: #0d2951;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Adicionado para posicionar as imagens */
+}
+
+.login-container {
+    background-color: #0d2951;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+
+}
+
+.login-container img {
+    position: absolute;
+    width: 100px;
+}
+
+.login-container .left-img {
+    left: 20px;
+    top: 20px;
+}
+
+.login-container .right-img {
+    right: 20px;
+    top: 20px;
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+    color: white; /* Alterado para branco */
+}
+
+.login-container label {
+    color: white; /* Cor do rótulo */
+    margin-bottom: 5px; /* Espaçamento entre o rótulo e o campo */
+}
+
+.login-container input {
+    flex: 1; /* Ocupa todo o espaço restante */
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box; /* Inclui o padding na largura */
+}
+
+.login-container .input-container {
+    display: flex;
+    flex-direction: row; /* Alinha os itens na mesma linha */
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 20px; /* Espaçamento entre os campos */
+}
+
+.input-container label {
+    color: white; /* Cor do rótulo */
+    width: 80px; /* Largura fixa para as labels */
+    margin-right: 10px; /* Espaçamento entre a label e o input */
+}
+
+.login-container .password-toggle {
+    position: relative;
+    top: 0%;
+    right: 25px;
+    transform: translateY(-15%);
+    cursor: pointer;
+    color: Black;
+}
+
+.login-container button {
+    background-color: #f2bc28; /* Alterado para a cor desejada */
+    color: #002b54; /* Alterado para a cor do background */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
